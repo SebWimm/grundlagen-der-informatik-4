@@ -1,5 +1,4 @@
 ## Course: User Management System
-_
 ### Task: Implement a User Managment System for the Command Line
 ______
 
