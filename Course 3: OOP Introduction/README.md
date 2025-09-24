@@ -12,9 +12,9 @@ ______
 ### Overview: "Einstieg in die Objektorientierung"
 Im Rahmen dieses Versuchs sollen mehrere Klassen erstellt werden und darüber die vier Säulen der Objektorientierung anhand von praktischen Beispielen kennen gelernt werden.
 
-Laden Sie das **Java Projekt** `dicegame` unter folgendem Link herunter: "TBD"
+Laden Sie das **Java Projekt** `dicegameTemplate` aus diesem Repository herunter.
 
-Ziel des Praktikums ist das Füllen der Main-Klasse mit selbst erstellten Würfelnobjekten. 
+Ziel des Praktikums ist das Füllen der Main-Klasse mit selbst erstellten Würfelobjekten. 
 Bereits vorhanden sind:
 1. Die Main Klasse
 2. Die Abstrakte Oberklasse `Dice.java`, von der die zu erstellenden Würfelklassen abgeleitet werden sollen
@@ -37,4 +37,5 @@ Bevor Sie mit der Implementierung starten: Besprechen Sie mit einem Betreuer ein
 Wenn Sie alle Würfel implementiert haben, fügen Sie diese in der Main-Methode dem Shaker mittels der `addDice(Dice dice)` Methode hinzu.
 
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
+
 
