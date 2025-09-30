@@ -14,6 +14,8 @@ Im Rahmen dieses Versuchs sollen mehrere Klassen erstellt werden und darüber di
 
 Laden Sie das **Java Projekt** `dicegameTemplate` aus diesem Repository herunter.
 
+![repodl](../images/repoDownload.png)
+
 Ziel des Praktikums ist das Füllen der Main-Klasse mit selbst erstellten Würfelobjekten. 
 Bereits vorhanden sind:
 1. Die Main Klasse
@@ -37,5 +39,6 @@ Bevor Sie mit der Implementierung starten: Besprechen Sie mit einem Betreuer ein
 Wenn Sie alle Würfel implementiert haben, fügen Sie diese in der Main-Methode dem Shaker mittels der `addDice(Dice dice)` Methode hinzu.
 
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
+
 
 
