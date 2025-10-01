@@ -12,6 +12,8 @@ ______
 ### Overview: "Einstieg in die Objektorientierung"
 Im Rahmen dieses Versuchs sollen mehrere Klassen erstellt werden und darüber die vier Säulen der Objektorientierung anhand von praktischen Beispielen kennen gelernt werden.
 
+Sämtlicher Code ist vor Ort zu programmieren. Eine inhaltliche Vorbereitung und vorherige Planung ist jedoch zwingend erforderlich um das Praktikum erfolgreich zu absolvieren.
+
 Laden Sie das **Java Projekt** `dicegameTemplate` aus diesem Repository herunter.
 
 ![repodl](../images/repoDownload.png)
@@ -21,6 +23,8 @@ Bereits vorhanden sind:
 1. Die Main Klasse
 2. Die Abstrakte Oberklasse `Dice.java`, von der die zu erstellenden Würfelklassen abgeleitet werden sollen
 3. Die Klasse `Shaker.java`, welche den Würfelbecher repräsentiert
+
+Bevor Sie mit der Implementierung starten: Besprechen Sie mit einem Betreuer eine geeignete Vererbungsstrategie und halten diese schriftlich fest. 
    
 Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
 1. `RegularDice.java`
@@ -29,16 +33,15 @@ Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
    - mehrseitiger Würfel zwischen 4 und 20 Seiten
    - Seitenzahl kann nur bei Erstellung des Objekts festgelegt und danach nicht mehr geändert werden 
 3. `LoadedDice.java`
-   - gezinkter Würfel
+   - gezinkter Würfel:
    - kann auf alle Seiten fallen, aber mit 50% Wahrscheinlichkeit auf die größte Zahl
 4. `ChaosDice.java`
    - wechselt nach jedem Wurf die Seitenanzahl
-  
-Bevor Sie mit der Implementierung starten: Besprechen Sie mit einem Betreuer eine geeignete Verberbungsstrategie und halten diese schriftlich fest.
 
 Wenn Sie alle Würfel implementiert haben, fügen Sie diese in der Main-Methode dem Shaker mittels der `addDice(Dice dice)` Methode hinzu.
 
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
+
 
 
 
