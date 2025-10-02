@@ -37,11 +37,12 @@ Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
    - gezinkter Würfel:
    - kann auf alle Seiten fallen, aber mit 50% Wahrscheinlichkeit auf die größte Zahl
 4. `ChaosDice.java`
-   - wechselt nach jedem Wurf die Seitenanzahl
+   - wechselt **nach** jedem Wurf die Seitenanzahl
 
 Wenn Sie alle Würfel implementiert haben, fügen Sie diese in der Main-Methode dem Shaker mittels der `addDice(Dice dice)` Methode hinzu.
 
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
+
 
 
 
