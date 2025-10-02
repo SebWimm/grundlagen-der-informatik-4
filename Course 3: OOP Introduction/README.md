@@ -43,6 +43,9 @@ Wenn Sie alle Würfel implementiert haben, fügen Sie diese in der Main-Methode 
 
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
 
+![instant](../images/instantiating.png)
+
+
 
 
 
