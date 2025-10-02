@@ -14,7 +14,7 @@ Im Rahmen dieses Versuchs sollen mehrere Klassen erstellt werden und darüber di
 
 Sämtlicher Code ist vor Ort zu programmieren. Eine inhaltliche Vorbereitung und vorherige Planung ist jedoch zwingend erforderlich um das Praktikum erfolgreich zu absolvieren.
 
-Laden Sie das **Java Projekt** `dicegameTemplate` aus diesem Repository herunter.
+Laden Sie das **Java Projekt** `dicegameTemplate` unter folgendem Link herunter: https://github.com/hsd-inflab/dicegameTemplate
 
 Ziel des Praktikums ist das Füllen der Main-Klasse mit selbst erstellten Würfelobjekten. 
 Bereits vorhanden sind:
@@ -44,6 +44,7 @@ Wenn Sie alle Würfel implementiert haben, fügen Sie diese in der Main-Methode 
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
 
 ![instant](../images/instantiating.png)
+
 
 
 
