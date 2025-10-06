@@ -13,10 +13,11 @@ ______
 ### Tasks
 
 1. Download the existing project within the source code of this repository and open it in an editor of your choice, preferably VSCode when working in the HSD Lab.
-2. Create a new Class called `MealPlansScene.java` that inherits `Scene` and contains a method `create()` that returns the object as its return type.
+2. In the folder frontend/pages, create a new Class called `MealPlanPage.java` that inherits `Page` and contains a method `getView()` that returns the root as its return type.
 3. Within this class, implement a daily meal planner that looks like this:
 ![planner](../images/mealplanner.png)
-   
+
+4. You can ignore almost all Class Files within this Codebase, the only relevant ones for the implementation are: `NavigationButton`, `MealPlannerFX` from frontend; `MealPlannerService` from backend; and `DailyMeal`, `Route`, `Recipe` and `RecipeIngredient` from models. Inspiration and how to structure the page can be obtained from the other page classes.   
 4. Explain why Maven is used in this context and how it aids in software and application development.
 
 
@@ -38,6 +39,7 @@ ______
 If your MacBook uses arm64 instead of x86-64 architecture, there might be an issue where JavaFX Application are not executed. To resolve this, perform the following steps:
 1. Uninstall Java 17 and install Java 21
 -->
+
 
 
 
