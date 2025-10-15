@@ -22,11 +22,12 @@ ______
 ### Tasks
 
 1. Download the existing project from {Link} and open it in an editor of your choice, preferably VSCode when working in the HSD Lab.
-2. Make yourself familiar with the codebase and how the JavaFX components are working together. Run the project and click through the JavaFX view while analyzing the code to figure out what each component does. One submenu is not implemented!
+2. Make yourself familiar with the codebase and how the JavaFX components are working together. Run the project and click through the JavaFX view while analyzing the code to figure out what each component does.
 3. In the folder frontend/pages, create a new Class called `PantryPage.java` that inherits `Page` and contains a method `getView()` that returns the root as its return type. Inspiration on how this can be done may be obtained by analyzing already existing Page Classes.
 4. The page shall be accessible by clicking on **Speisekammer verwalten** in the Main Menu.
-5. Behaviour of the page shall be as follows: On the left, list all items that are currently in the pantry. Upon clicking an item, its details shall be printed on the right side. The buttons **Lebensmittel hinzufügen** navigates to `AddGroceryPage`, **Zurück zum Hauptmenü** to `MainPage`.
-6. Relevant and useful JavaFX components are:
+5. uncomment the `navigator.register()` method in `MealPlannerFX.java` so that you can navigate to the new page. 
+6. Behaviour of the page shall be as follows: On the left, list all items that are currently in the pantry. Upon clicking an item, its details shall be printed on the right side. The buttons **Lebensmittel hinzufügen** navigates to `AddGroceryPage`, **Zurück zum Hauptmenü** to `MainPage`.
+7. Relevant and useful JavaFX components are:
    - VBox
    - HBox
    - BorderPane
@@ -35,8 +36,8 @@ ______
    - Insets
    - Button
    - Node.setOnMouseClicked()
-7. instead of `Button`, use `NavigationButton`.
-8. Explain why Maven is used in this context and how it aids in software and application development.
+8. instead of `Button`, use `NavigationButton`.
+9. Explain why Maven is used in this context and how it aids in software and application development.
    
 
 
@@ -58,6 +59,7 @@ ______
 If your MacBook uses arm64 instead of x86-64 architecture, there might be an issue where JavaFX Application are not executed. To resolve this, perform the following steps:
 1. Uninstall Java 17 and install Java 21
 -->
+
 
 
 
