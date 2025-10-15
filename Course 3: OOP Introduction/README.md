@@ -22,7 +22,7 @@ Bereits vorhanden sind:
 2. Die Abstrakte Oberklasse `Dice.java`, von der die zu erstellenden Würfelklassen abgeleitet werden sollen
 3. Die Klasse `Shaker.java`, welche den Würfelbecher repräsentiert
 
-Bevor Sie mit der Implementierung starten: Besprechen Sie mit einem Betreuer eine geeignete Vererbungsstrategie und halten diese schriftlich fest. 
+Bevor Sie während des Praktikums mit der Implementierung starten: Besprechen Sie mit einem Betreuer eine geeignete Vererbungsstrategie und halten diese schriftlich fest. 
 Die bereits vorhandenen Klassen `Dice` und `Shaker` dürfen nicht verändert werden.
 
 Wenn Sie einen Würfel implementiert haben, fügen Sie diese in der Main-Methode dem Shaker mittels der `addDice(Dice dice)` Methode hinzu und überprüfen Sie die korrekte Funktion.
@@ -45,6 +45,7 @@ Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
 
 ![instant](../images/instantiating.png)
+
 
 
 
