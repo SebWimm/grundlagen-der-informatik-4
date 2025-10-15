@@ -6,6 +6,7 @@ ______
 Any data stored on `C:\` will only be saved to the local computer and can be deleted or manipulated by any other user. 
 ______
 
+***This course requires a thorough preparation. make yourself familiar with the codebase in advance.***
 ### Topic
 
  Implementing a Java FX Graphical user interface (GUI) as a part of an existing project.
@@ -59,6 +60,7 @@ ______
 If your MacBook uses arm64 instead of x86-64 architecture, there might be an issue where JavaFX Application are not executed. To resolve this, perform the following steps:
 1. Uninstall Java 17 and install Java 21
 -->
+
 
 
 
