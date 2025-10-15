@@ -24,6 +24,8 @@ Bereits vorhanden sind:
 
 Bevor Sie mit der Implementierung starten: Besprechen Sie mit einem Betreuer eine geeignete Vererbungsstrategie und halten diese schriftlich fest. 
 Die bereits vorhandenen Klassen `Dice` und `Shaker` dürfen nicht verändert werden.
+
+Wenn Sie einen Würfel implementiert haben, fügen Sie diese in der Main-Methode dem Shaker mittels der `addDice(Dice dice)` Methode hinzu und überprüfen Sie die korrekte Funktion.
    
 Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
 1. `RegularDice.java`
@@ -32,18 +34,18 @@ Nun sollen die folgenden vier Würfel von `Dice.java` abgeleitet werden:
    - mehrseitiger Würfel zwischen 4 und 20 Seiten
    - Seitenzahl kann nur bei Erstellung des Objekts festgelegt und danach nicht mehr geändert werden 
 3. `LoadedDice.java`
-   - gezinkter Würfel:
+   - gezinkter Würfel mit sechs Seiten
    - kann auf alle Seiten fallen, aber mit 50% Wahrscheinlichkeit auf die größte Zahl
 4. `ChaosDice.java`
+   - Würfel zwischen 4 und 20 Seiten
    - wechselt **nach** jedem Wurf die Seitenanzahl
 
 ![dice](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wuerfel5.jpg?uselang=de)
 
-Wenn Sie alle Würfel implementiert haben, fügen Sie diese in der Main-Methode dem Shaker mittels der `addDice(Dice dice)` Methode hinzu.
-
 Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des Objekts und Konstruktorklasse und erklären, warum es möglich bzw. nicht möglich ist, diese so zu instanziieren. 
 
 ![instant](../images/instantiating.png)
+
 
 
 
