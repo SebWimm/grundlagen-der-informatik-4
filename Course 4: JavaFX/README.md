@@ -16,7 +16,7 @@ ______
  2. The pantry: Stores all groceries in your home at one place so you can keep track on what you can cook. you may add groceries via a button.
  3. The Meal Planner: create your own individual meal plan, chosen from your recipes. you can also view which recipes you can prepare with your current pantry stock.
 
- Unfortunately there has been some currupted data and the page that displays the pantry has been deleted. The entire dev-team is on vacation and customers are getting angry, so now it is your responsibility to get the application running the way it is supposed to. Despite the mishaps, there is at least a       picture of what the page is supposed to look like: 
+ Unfortunately there has been some corrupted data and the page that displays the pantry has been deleted. The entire dev-team is on vacation and customers are getting angry, so now it is your responsibility to get the application running the way it is supposed to. Despite the mishaps, there is at least a       picture of what the page is supposed to look like: 
 
  ![planner](../images/pantry.png)
 
@@ -60,6 +60,7 @@ ______
 If your MacBook uses arm64 instead of x86-64 architecture, there might be an issue where JavaFX Application are not executed. To resolve this, perform the following steps:
 1. Uninstall Java 17 and install Java 21
 -->
+
 
 
 
