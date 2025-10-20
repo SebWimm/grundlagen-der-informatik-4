@@ -58,3 +58,4 @@ Fügen Sie in der Main Methode Sechs verschiedene Kombinationen aus Dateityp des
 
 
 
+
