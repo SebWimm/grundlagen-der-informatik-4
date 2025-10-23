@@ -22,7 +22,7 @@ ______
 
 ### Tasks
 
-1. Download the existing project from [{Link}](https://github.com/hsd-inflab/mealPlannerTemplate) and open it in an editor of your choice, preferably VSCode when working in the HSD Lab.
+1. Download the existing project from https://github.com/hsd-inflab/mealPlannerTemplate and open it in an editor of your choice, preferably VSCode when working in the HSD Lab.
 2. Make yourself familiar with the codebase and how the JavaFX components are working together. Run the project and click through the JavaFX view while analyzing the code to figure out what each component does.
 3. In the folder frontend/pages, create a new Class called `PantryPage.java` that inherits `Page` and contains a method `getView()` that returns the root as its return type. Inspiration on how this can be done may be obtained by analyzing already existing Page Classes.
 4. The page shall be accessible by clicking on **Speisekammer verwalten** in the Main Menu.
@@ -60,6 +60,7 @@ ______
 If your MacBook uses arm64 instead of x86-64 architecture, there might be an issue where JavaFX Application are not executed. To resolve this, perform the following steps:
 1. Uninstall Java 17 and install Java 21
 -->
+
 
 
 
